@@ -1,0 +1,184 @@
+
+
+
+/*Main Code*/
+body{
+  color: #caf7e3;
+  margin:0;
+  text-align: center;
+  font-family:'Merriweather', serif;
+  width: 100%;
+  background-color: #1a1a1d;
+}
+h1{
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size:5.625em;
+  color:  #6f2232;
+}
+#imdp{
+  width: 100%;
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color:  #66BFBF;
+  font-weight: normal;
+}
+.hello{
+  margin-top: 1.5rem;
+}
+
+#spand{font-size: 2.6rem;
+      margin-top: 30px;
+      margin-bottom: 1rem;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+.pro{
+  text-decoration: underline;
+}
+.intro{
+  width: 50%;
+  margin: auto;
+}
+
+
+hr{
+  border: dotted #1a1a1d 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 50px auto;
+}
+P{
+  line-height: 2;
+  font-size: 20px;
+}
+
+.skill-row{
+  width: 50%;
+  margin:50px auto 50px auto;
+  text-align: left;
+}
+.code-img{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.coffee-img{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.contact-me{
+  margin-top:  50px;
+}
+.contact-msg{
+  width: 40%;
+  margin:40px auto 60px;
+}
+
+#love-coffee{
+  margin-top:  30px;
+}
+
+a{
+  color:#11999E;
+  font-family: "Montserrat" sans-serif;
+  margin:10x 20px;
+  text-decoration: none;
+}
+a:hover{
+  color: #EAF6F6;
+}
+.footer-link{
+  margin:0 20px;
+}
+
+.copyright{
+  margin-top: 50px;
+  color: #EAF6F6;
+  padding: 20px 0;
+}
+
+/* NavBar */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://getbootstrap.com/docs/4.4/getting-started/introduction/');
+
+* {
+    box-sizing: border-box;
+    margin: 0px; 
+    padding: 0px; 
+    
+}
+
+
+li,a,button{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration:none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.logo {
+    cursor: pointer;
+    order: 3;
+    margin-left: left;
+}
+
+.nav {
+    order:1;
+
+}
+.cta{
+    order:3;
+}
+
+.nav-links{
+    list-style: none;
+}
+
+nav__links li a{
+    transition: all 0.3s ease 0s;
+}
+.nav__links li a:hover {
+    color: #0088a9
+
+}
+
+.top-container{
+  margin: 50px auto 50px auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+  
+
+button {
+    padding: 9px 25px;
+    margin-left: 20px;
+    background-color: rgba(0,136,169,1);
+    border-radius: 50px;
+    cursor :pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(0,136,169,0.8);
+
+} 
+
+
+
